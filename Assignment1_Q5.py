@@ -12,10 +12,10 @@ def add(number):
         
     return int("".join(digits))
 
-
 five_digit=int(input("Enter a five digit number: "))
 result=add(five_digit)
 print("Increment in each digit: ",result)
+
 
 
 
