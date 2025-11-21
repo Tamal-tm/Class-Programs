@@ -9,7 +9,6 @@ num_str=str(five_digit)
 
 digits=[]
 
-
 for char in num_str:
     digit=int(char)
     new_digit=(digit+1)%10
@@ -17,6 +16,7 @@ for char in num_str:
 result=int("".join(digits))
         
 print("Increment in each digit: ",result)
+
 
 
 
