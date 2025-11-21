@@ -6,7 +6,6 @@ if not (10000<= five_digit <=99999):
 
 num_str=str(five_digit)
 
-
 digits=[]
 
 for char in num_str:
@@ -16,6 +15,7 @@ for char in num_str:
 result=int("".join(digits))
         
 print("Increment in each digit: ",result)
+
 
 
 
